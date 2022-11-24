@@ -1,7 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import tasks.exercise1
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    print("Enter task number: ")
+    when (readln().toInt()) {
+        1 -> exercise1()
+        else -> println("No such task")
+    }
 }
