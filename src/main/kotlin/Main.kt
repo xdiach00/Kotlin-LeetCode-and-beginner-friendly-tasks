@@ -8,6 +8,7 @@ fun main() {
         3 -> exercise3()
         4 -> exercise4()
         5 -> exercise5()
+        6 -> exercise6()
         else -> println("No such task")
     }
 }
