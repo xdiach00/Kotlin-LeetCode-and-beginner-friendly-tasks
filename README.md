@@ -1,7 +1,7 @@
 ### Solutions are in the folder "src/main/kotlin/tasks/"
-
-# Tasks:
+### Unit tests are in the folder "src/test/kotlin/"
 --------------------
+
 # ex.1
 Create two variables a and b, and initially set them each to a different number. Write a program that swaps both values.
 
