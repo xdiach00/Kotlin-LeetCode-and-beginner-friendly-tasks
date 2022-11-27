@@ -3,9 +3,18 @@
  */
 package tasks
 
-fun exercise12(wikipediaMb: Int, memesMb: Int): String {
-    val wikipediaConsumption = wikipediaMb * 0.10
-    val memesConsumption = memesMb * 0.05
+fun exercise12(wikipediaMb: Int? = null, memesMb: Int? = null): String {
+    val wikipediaMbs = wikipediaMb ?: run {
+        print("Enter the amount of MBs you have spent on Wikipedia: ")
+        readln().toInt()
+    }
+    val memesMbs = memesMb ?: run {
+        print("Enter the amount of MBs you have spent on Memes: ")
+        readln().toInt()
+    }
+
+    val wikipediaConsumption = wikipediaMbs * 0.10
+    val memesConsumption = memesMbs * 0.05
 
     if (memesConsumption > wikipediaConsumption) {
         return("WOW MANY MEMES \n SUCH LOL")
