@@ -18,6 +18,7 @@ fun main() {
         13 -> print(exercise13())
         14 -> print(exercise14())
         15 -> print(exercise15())
+        16 -> print(exercise16())
         else -> println("No such task")
     }
 }
