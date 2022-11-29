@@ -26,6 +26,8 @@ fun main() {
         21 -> exercise21()
         22 -> exercise22()
         23 -> exercise23()
+        24 -> exercise24()
+        25 -> exercise25()
         else -> println("No such task")
     }
 }
