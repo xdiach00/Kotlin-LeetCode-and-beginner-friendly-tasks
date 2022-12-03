@@ -38,6 +38,7 @@ fun main() {
         34 -> exercise34()
         35 -> exercise35()
         36 -> exercise36()
+        // exercise37 added to the Unit Tests
         else -> println("No such task")
     }
 }
