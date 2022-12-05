@@ -52,6 +52,7 @@ fun main() {
         48 -> exercise48()
         49 -> exercise49()
         50 -> exercise50()
+        51 -> exercise51()
         else -> println("No such task")
     }
 }
