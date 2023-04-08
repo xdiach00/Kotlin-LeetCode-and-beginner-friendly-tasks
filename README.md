@@ -1,6 +1,8 @@
-### Solutions are in the folder "src/main/kotlin/tasks/"
-### Unit tests are in the folder "src/test/kotlin/"
---------------------
+* ### _Solutions_ are in the folder "src/main/kotlin/tasks/"
+* ### _Unit tests_ are in the folder "src/test/kotlin/exercises"
+* ### _LeetCode_ tasks solutions are in the folder "src/test/kotlin/leetcode"
+
+----------------
 
 # ex.1
 Create two variables a and b, and initially set them each to a different number. Write a program that swaps both values.
